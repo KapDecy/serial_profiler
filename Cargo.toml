@@ -1,0 +1,11 @@
+[package]
+name = "serial_profiler"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serialport = "4.2.1"
+colored = "2.0.0"
+ctrlc = "3.4.0"
